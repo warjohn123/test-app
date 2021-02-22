@@ -1,0 +1,143 @@
+.navbar {
+  background: transparent;
+
+  .AppLogo {
+    width: 48px;
+    height: 48px;
+    background: #C4C4C4;
+    border-radius: 50%;
+
+    @media(max-width: 767px) {
+      display: none;
+    }
+  }
+
+  .SearchContainer {
+    display: none;
+    margin-top: 10px;
+
+    @media(max-width: 767px) {
+      display: block;
+    }
+
+    svg {
+      cursor: pointer;
+      stroke: #fff;
+    }
+  }
+
+  .SearchBarContainer {
+    @media(max-width: 767px) {
+      display: none;
+    }
+    .SearchBar {
+      width: 430px !important;
+      border-radius: 30px;
+      font-size: 18px;
+      color: #666;
+      padding: 21px;
+      padding-left: 53px;
+      font-weight: 400px;
+      background: rgba(255, 255, 255, 0.65) !important;
+      border: none;
+      outline: 0ex;
+    }
+
+    .input-group-append {
+      background: rgba(255, 255, 255, 0.65) !important;
+      margin-left: 0;
+      border-top-right-radius: 30px;
+      border-bottom-right-radius: 30px;
+      padding-right: 24px;
+
+      svg {
+        margin-top: 8px;
+      }
+    }
+  }
+}
+
+.TabsCol {
+  @media(max-width: 767px) {
+    display: none;
+  }
+}
+
+.MobileTabsContainer {
+  display: none;
+
+  @media(max-width: 767px) {
+    display: flex;
+    background: #28363E;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    padding: 17px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .icon-container {
+    cursor: pointer;
+  }
+}
+
+.TabsContainer {
+  background: #28363E;
+  box-shadow: 15px 15px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 30px;
+  text-align: center;
+  width: fit-content;
+  margin-top: 40px;
+  position: relative;
+  left: -21px;
+
+  .icon-container {
+    margin-bottom: 45px;
+    cursor: pointer;
+  }
+}
+
+.container {
+  color: #fff !important;
+
+  .PageTitle {
+    font-size: 24px;
+    font-weight: 600;
+  }
+
+  .Greeting {
+    font-size: 60px;
+    font-weight: 300;
+  }
+
+  .PageDescription {
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 32.74px;
+    margin-top: 30px;
+  }
+
+  .CardsContainer {
+    margin-top: 129px;
+
+    .card {
+      width: 100% !important;
+
+      .card-body {
+        padding: 12px;
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+  
+      .card-title {
+        color: #333333;
+        font-size: 18px;
+        line-height: 32px;
+        margin-bottom: 0;
+      }
+    }
+  }
+}
